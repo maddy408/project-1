@@ -10,6 +10,7 @@ export default function Home() {
    
 
     return (
+        <section id='contact'>
         <Box 
             sx={{ 
                 display: 'flex', 
@@ -49,5 +50,6 @@ export default function Home() {
                 </Box>
             </Container>
         </Box>
+        </section>
     );
 }

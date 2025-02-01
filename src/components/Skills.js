@@ -17,6 +17,7 @@ export default function Home() {
     };
 
     return (
+        <section id='skills'>
         <Box 
             sx={{ 
                 display: 'flex', 
@@ -100,5 +101,6 @@ export default function Home() {
                 
             </Container>
         </Box>
+        </section>
     );
 }

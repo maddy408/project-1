@@ -7,6 +7,7 @@ import Button from '@mui/material/Button';
 export default function Home() {
    
     return (
+        <section id='about'>
         <Box 
             sx={{ 
                 display: 'flex', 
@@ -39,11 +40,12 @@ export default function Home() {
       
       
       
-      <Button variant="contained" >Download Resume </Button>
+      <Button variant="contained" onClick={() => window.open('https://drive.google.com/file/d/1_rEsfN9Yj94lVJxxNbsIkSOb52FnXOmC/view?usp=drivesdk', '_blank')} >Download Resume </Button>
     </Stack>
             </Container>
             
         </Box>
+        </section>
     );
 }
 
